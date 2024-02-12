@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NFC and File</string>
+    <string name="title_activity_nfcwrite">NFC Write</string>
+    <string name="title_activity_nfcread">NFC Read</string>
+</resources>

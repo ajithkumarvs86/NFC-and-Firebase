@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="200dp"
+        android:text="Read NFC"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_write"
+        android:layout_width="200dp"
+        android:text="Write NFC"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_upload"
+        android:layout_width="200dp"
+        android:text="Upload"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_download"
+        android:layout_width="200dp"
+        android:text="Download PDF"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/but_view_pdf"
+        android:layout_width="200dp"
+        android:text="View PDF Online"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lbl_download"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:visibility ="gone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
